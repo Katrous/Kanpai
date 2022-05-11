@@ -1,0 +1,28 @@
+.sidebar {
+    // border-right: 2px solid black;
+   height: 100%;
+    width: 70px;
+    position: fixed;
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    -webkit-box-shadow: 7px 0px 11px -4px #000000; 
+box-shadow: 7px 0px 11px -4px #000000;
+}
+
+.sidebar svg {
+    width: 30px;
+    margin: 0.5rem 0;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.sidebar ul li:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}

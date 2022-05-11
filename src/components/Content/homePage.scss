@@ -1,0 +1,32 @@
+.homeContainer {
+    background-image: url('../../../assets/images/group21.svg');
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.homeContainer button {
+    width: 17%;
+    padding: 8px 0;
+    border-radius: 12px;
+    margin: 0.5rem 0;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    background-color: #C4C4C4;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 6px 13px 25px -8px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 6px 13px 25px -8px rgba(0,0,0,0);
+    z-index: 80;
+}
+
+.homeContainer button:first-of-type {
+    margin: 5vh 0 0.5rem 0;
+}
+
+.homeContainer button:hover {
+    transform: scale(1.1);
+}
